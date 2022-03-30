@@ -23,13 +23,6 @@ class ExampleInstrumentedTest {
 
     @get:Rule
     var activityRule = ActivityTestRule(MainActivity::class.java)
-/*
-    @Test
-    fun useAppContext() {
-        // Context of the app under test.
-        val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.example.bitrisesample", appContext.packageName)
-    }
 
     @Test
     fun ui_test_sample() {
@@ -37,9 +30,9 @@ class ExampleInstrumentedTest {
             .perform(ViewActions.click())
         Espresso.onView(withId(R.id.button_second))
             .perform(ViewActions.click())
-    }*/
+    }
 
-    @Test
+    /*@Test
     fun ui_fail_test() {
         Espresso.onView(withId(R.id.button_first))
             .perform(ViewActions.click())
@@ -47,5 +40,5 @@ class ExampleInstrumentedTest {
             .perform(ViewActions.click())
         Espresso.onView(withId(R.id.button_second))
             .perform(ViewActions.click())
-    }
+    }*/
 }
