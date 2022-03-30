@@ -23,7 +23,7 @@ class ExampleInstrumentedTest {
 
     @get:Rule
     var activityRule = ActivityTestRule(MainActivity::class.java)
-
+/*
     @Test
     fun useAppContext() {
         // Context of the app under test.
@@ -37,7 +37,7 @@ class ExampleInstrumentedTest {
             .perform(ViewActions.click())
         Espresso.onView(withId(R.id.button_second))
             .perform(ViewActions.click())
-    }
+    }*/
 
     @Test
     fun ui_fail_test() {
