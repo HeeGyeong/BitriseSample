@@ -38,4 +38,14 @@ class ExampleInstrumentedTest {
         Espresso.onView(withId(R.id.button_second))
             .perform(ViewActions.click())
     }
+
+    @Test
+    fun ui_fail_test() {
+        Espresso.onView(withId(R.id.button_first))
+            .perform(ViewActions.click())
+        Espresso.onView(withId(R.id.button_first))
+            .perform(ViewActions.click())
+        Espresso.onView(withId(R.id.button_second))
+            .perform(ViewActions.click())
+    }
 }
