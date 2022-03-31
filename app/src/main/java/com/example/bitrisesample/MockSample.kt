@@ -1,6 +1,7 @@
 package com.example.bitrisesample
 
 open class MockSample {
+
     open fun getNumber(): Int {
         return 1
     }
