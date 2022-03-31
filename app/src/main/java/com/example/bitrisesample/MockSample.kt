@@ -13,5 +13,4 @@ open class MockSample {
     open fun getList(): List<String> {
         return listOf("123")
     }
-
 }
