@@ -8,4 +8,4 @@ Bitrise에서 사용이 가능한 Unit Test도 사용해보기 위하여 UnitTes
 
 Blog에 자세한 정보를 기입해두었습니다.
 
-[Tistory Blog - CI/CD](https://heegs.tistory.com/category/Android/CI%20CD, "CI/CD Example")
+[Tistory Blog - CI/CD](https://heegs.tistory.com/category/Android/CI%20CD "CI/CD Example")
